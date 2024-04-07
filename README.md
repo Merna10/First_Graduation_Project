@@ -9,4 +9,4 @@ Summarize errors and warnings, providing counts and details for each type encoun
 Event Tracking:
 Track specific events, such as "System Startup Sequence Initiated" and "System health check OK", to ensure critical processes are starting and completing as expected.
 Report Generation:
-Generate a report summarizing the findings, including any trends identified in the error/warning logs and the status of system events.
+Generate a report summarizing the findings, including any trends identified in the error/warning logs and the status of system events..
