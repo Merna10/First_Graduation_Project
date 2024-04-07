@@ -30,7 +30,7 @@ event_track() {
 }
 
 generate_report() {
-    echo "=== Report Summary ==="
+    echo "*******Report Summary*******"
     echo "Error Count: $errorCount"
     echo "Warning Count: $warningCount"
     echo "Events Tracked:"
