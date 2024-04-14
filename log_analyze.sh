@@ -57,9 +57,9 @@ read_log_file() {
     if [ -f "file.log" ]; then
         while IFS= read -r log_entry; do
             #[2024-04-06 08:15:32] INFO System Startup Sequence Initiated
-            #    0          1        3 
+            #    1          2        3 
             logLevel=$(echo "$log_entry" | awk '{print $3}') #INFO WARN ERROR
-            message=$(echo "$log_entry" | awk '{$1=$2=$3=""; print $0}') #ALL EXCEPT 0 1 3
+            message=$(echo "$log_entry" | awk '{$1=$2=$3=""; print $0}') #ALL EXCEPT 1 2 3
             error_count
             warning_count
             event_track
